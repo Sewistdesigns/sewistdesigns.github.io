@@ -27,17 +27,14 @@ header {
     border-bottom: 1px solid #adadad;
   }
 
- header ul {
+ header li {
+    float: left;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     margin: 20px auto;
     padding: 0 20px;
-  }
-  
-  header li{
-    float: left;
   }
 
   header li a {
@@ -82,7 +79,8 @@ header {
     overflow: hidden;
   }
 
-  footer ul{
+  footer li{
+    float: left;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -91,10 +89,6 @@ header {
     color: #000000;
     margin: 20px auto;
     padding: 0 20px;
-  }
-
-  footer li{
-    float: left;
   }
 
   .follow{    
