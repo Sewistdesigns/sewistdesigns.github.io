@@ -25,6 +25,7 @@ header {
     background-color: rgb(255, 255, 255);
     font-family: 'Montserrat';
     border-bottom: 1px solid #adadad;
+    margin-bottom: 20px;
   }
 
  header li {
@@ -119,7 +120,7 @@ header {
     background-color: rgba(232, 153, 141, 1);
     border-radius: 15px;
     padding: 20px;
-    margin: auto;
+    margin: 20px auto;
   }
 
   h3{
@@ -140,10 +141,8 @@ header {
   .button{
     border-radius: 15px;
     background-color: rgba(238, 210, 204, 1);
-    padding: 20px; 
-    width: 130px;
+    padding: 10px; 
     text-align: center;
-    text-decoration: none;
   }
 
   body {
