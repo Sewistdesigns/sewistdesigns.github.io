@@ -114,7 +114,7 @@ header {
     font-family: 'Montserrat';
     font-size: 27px;
     text-align: center;    
-    color: #000000;
+    color: rgba(101, 99, 99, 1);
     width: 50%;
     background-color: rgba(232, 153, 141, 1);
     box-align: center;
@@ -124,16 +124,16 @@ header {
 
   h3{
     font-family: 'Montserrat';
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;    
-    color: #000000;
+    color: rgba(101, 99, 99, 1);
   }
 
   h4{
     font-family: 'Montserrat';
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;    
-    color: #000000;
+    color: rgba(101, 99, 99, 1);
   }
 
   .button{
@@ -148,7 +148,7 @@ header {
 
   body {
     background-color: #FFF;
-    margin: 0 auto;
+    margin: 0 20px;
   }
 
 /* Inspiration */
