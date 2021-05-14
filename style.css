@@ -195,9 +195,10 @@ header {
   #share{
     margin: 10px 20px 10px 50px;
     width: 90px;
+    border: none;
   }
 
   .share{
     display: inline-block;
-    vertical-align: middle;
+    text-align: center;
   }
