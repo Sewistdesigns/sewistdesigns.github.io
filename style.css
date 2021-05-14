@@ -120,6 +120,8 @@ header {
     box-align: center;
     border-radius: 25px;
     padding: 20px;
+    margin: 20px 10px;
+    float: inline-start;
   }
 
   h3{
@@ -193,5 +195,5 @@ header {
   }
 
   #share{
-    float: right;
+    float: inline-end;
   }
