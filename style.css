@@ -117,10 +117,9 @@ header {
     color: rgba(101, 99, 99, 1);
     width: 50%;
     background-color: rgba(232, 153, 141, 1);
-    box-align: center;
-    border-radius: 25px;
+    border-radius: 15px;
     padding: 20px;
-    margin: 20px 10px;
+    margin: auto;
   }
 
   h3{
@@ -143,7 +142,6 @@ header {
     background-color: rgba(238, 210, 204, 1);
     padding: 20px; 
     width: 130px;
-    height: 40px;
     text-align: center;
     text-decoration: none;
   }
