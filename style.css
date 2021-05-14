@@ -53,7 +53,6 @@ header {
     color:rgba(232, 153, 141, 1);
     padding: 16px;
     display: block;
-    float: right;
   }
 
   #register{
@@ -63,7 +62,6 @@ header {
     color: rgba(255, 255, 255, 1);
     padding: 16px;
     display: block;
-    float: right;
   }
 
  footer {
