@@ -33,7 +33,7 @@ header {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    margin: 20px auto;
+    margin: auto;
     padding: 0 20px;
   }
 
@@ -54,7 +54,6 @@ header {
     background-color: rgba(232, 153, 141, 1);
     border: 2px solid rgba(232, 153, 141, 1);
     color: rgba(255, 255, 255, 1);
-    padding: 16px;
     margin-right: 20px;
     margin-left: 0px;
     display: inline-block;
@@ -64,13 +63,11 @@ header {
     border-radius: 10px;
     border: 2px solid rgba(232, 153, 141, 1);
     color:rgba(232, 153, 141, 1);
-    padding: 16px;
     display: inline-block;
     margin-right: 0px;
   }
 
  footer {
-    position: fixed;
     bottom: 0;
     width: 100%;
     background-color: rgb(255, 255, 255);
@@ -114,7 +111,7 @@ header {
   }
 
   h2{
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-size: 27px;
     text-align: center;    
     color: #000000;
@@ -127,15 +124,15 @@ header {
   }
 
   h3{
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-size: 18px;
     text-align: center;    
     color: #000000;
   }
 
   h4{
-    font-family: Montserrat;
-    font-size: 22px;
+    font-family: 'Montserrat';
+    font-size: 18px;
     text-align: center;    
     color: #000000;
   }
@@ -146,13 +143,14 @@ header {
     padding: 20px; 
     width: 130px;
     height: 40px;
-  }
-  .share{
-    position: absolute;
-    right: 20px;
+    text-align: center;
+    text-decoration: none;
   }
 
-
+  body {
+    background-color: #FFF;
+    margin: 0 auto;
+  }
 
 /* Inspiration */
   div.gallery {
@@ -191,4 +189,8 @@ header {
     .responsive {
       width: 100%;
     }
+  }
+
+  #share{
+    float: right;
   }
