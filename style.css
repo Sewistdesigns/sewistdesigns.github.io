@@ -40,7 +40,7 @@ header {
     display: block;
     text-align: center;
     text-decoration: none;
-    padding: 8px;
+    padding: 16px;
     color: rgba(108, 154, 139, 1);
   }
 
@@ -51,6 +51,9 @@ header {
     border-radius: 10px;
     border: 2px solid rgba(232, 153, 141, 1);
     color:rgba(232, 153, 141, 1);
+    padding: 16px;
+    display: block;
+    float: right;
   }
 
   #register{
@@ -58,6 +61,9 @@ header {
     background-color: rgba(232, 153, 141, 1);
     border: 2px solid rgba(232, 153, 141, 1);
     color: rgba(255, 255, 255, 1);
+    padding: 16px;
+    display: block;
+    float: right;
   }
 
  footer {
@@ -68,25 +74,25 @@ header {
     padding: 20px;
     background-color: rgb(255, 255, 255);
     font-family: 'Montserrat';
+    font-size: 16px;
   }
 
   footer p{
-    font-family: Montserrat;
-    font-size: 16px;
     text-align: center;    
     color: #000000;
-    left: 30%;
+    left: 20%;
+  }
+  footer #logo{
+    float: left;
   }
 
   .follow{
-    font-family: Montserrat;
-    font-size: 16px;
     text-align: center;    
     color: #000000;
-    left: 60%;
+    float: right;
   }
 
-  .fa {
+  .socialmedia {
     padding: 20px;
     width: 20px;
     height: 20px;
@@ -97,7 +103,7 @@ header {
     color:rgba(108, 154, 139, 1);
   }
   
-  .fa:hover {
+  .socialmedia:hover {
       color: rgba(246, 190, 101, 1);
   }
 
