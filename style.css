@@ -128,8 +128,6 @@ header {
     font-size: 16px;
     text-align: center;    
     color: rgba(101, 99, 99, 1);
-    display: inline-block;
-    vertical-align: middle;
   }
 
   h4{
@@ -138,6 +136,15 @@ header {
     text-align: center;    
     color: rgba(101, 99, 99, 1);
     line-height: 5px;
+  }
+
+  .share h3{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    text-align: center;    
+    color: rgba(101, 99, 99, 1);
+    display: inline-block;
+    vertical-align: middle;
   }
 
   button{
@@ -194,7 +201,7 @@ header {
   }
 
   #share{
-    margin: 10px 20px 10px 50px;
+    margin: 10px 20px 10px 80px;
     width: 90px;
     display: inline-block;
     vertical-align: middle;
