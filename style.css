@@ -41,6 +41,29 @@ header {
   header li a:hover {
     color:rgba(246, 190, 101, 1);
   }
+  #login{
+    border-radius: 15px;
+    border: 2px solid rgba(232, 153, 141, 1);
+    color:rgba(232, 153, 141, 1);
+    padding: 20px 0px 20px 20px; 
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    right: 150px;
+    text-align: center;
+  }
+
+  #register{
+    border-radius: 15px;
+    background-color: rgba(232, 153, 141, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 20px 20px 20px 0px; 
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    right: 60px;
+    text-align: center;
+  }
 
  footer {
     position: fixed;
@@ -121,27 +144,7 @@ header {
     right: 20px;
   }
 
-  #login{
-    border-radius: 15px;
-    border: 2px solid rgba(232, 153, 141, 1);
-    color:rgba(232, 153, 141, 1);
-    padding: 20px 0px 20px 20px; 
-    width: 130px;
-    height: 40px;
-    position: absolute;
-    right: 150px;
-  }
 
-  #register{
-    border-radius: 15px;
-    background-color: rgba(232, 153, 141, 1);
-    color: rgba(255, 255, 255, 1);
-    padding: 20px 20px 20px 0px; 
-    width: 130px;
-    height: 40px;
-    position: absolute;
-    right: 20px;
-  }
 
 /* Inspiration */
   div.gallery {
