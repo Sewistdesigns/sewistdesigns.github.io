@@ -121,7 +121,6 @@ header {
     border-radius: 25px;
     padding: 20px;
     margin: 20px 10px;
-    float: inline-start;
   }
 
   h3{
@@ -129,6 +128,7 @@ header {
     font-size: 16px;
     text-align: center;    
     color: rgba(101, 99, 99, 1);
+    float: inline-start;
   }
 
   h4{
