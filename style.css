@@ -21,7 +21,7 @@
 header {
     top: 0;
     width: 100%;
-    height: 60px;
+    height: 70px;
     background-color: rgb(255, 255, 255);
     font-family: 'Montserrat';
     border-bottom: 1px solid #adadad;
@@ -33,7 +33,7 @@ header {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    margin: 10px auto;
+    margin: 0px auto 10px auto;
     padding: 0 20px;
   }
 
