@@ -25,6 +25,7 @@ header {
     background-color: rgb(255, 255, 255);
     font-family: 'Montserrat';
     border-bottom: 1px solid #adadad;
+    display: inline-block;
   }
 
  header ul {
