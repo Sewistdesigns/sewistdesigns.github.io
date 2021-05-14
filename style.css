@@ -34,7 +34,7 @@ header {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    margin: 30px auto;
+    margin: 20px auto;
     padding: 0 20px;
   }
   
@@ -88,6 +88,8 @@ header {
     text-decoration: none;
     font-size: 16px;   
     color: #000000;
+    margin: 20px auto;
+    padding: 0 20px;
   }
 
   .follow{    
