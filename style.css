@@ -126,7 +126,7 @@ header {
   h3{
     font-family: 'Montserrat';
     font-size: 16px;
-    text-align: justify;    
+    text-align: start;    
     color: rgba(101, 99, 99, 1);
     display: inline-block;
   }
@@ -193,5 +193,6 @@ header {
 
   #share{
     display: inline-block;
+    right: 40px;
     width: 40px;
   }
