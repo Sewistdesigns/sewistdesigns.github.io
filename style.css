@@ -23,17 +23,20 @@ header {
     top: 0;
     width: 100%;
     height: 60px;
-    padding: 20px 0;
+    padding: 20px;
     background-color: rgb(255, 255, 255);
     font-family: 'Montserrat';
   }
 
  header li {
     float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
   }
   
   header li a {
-    display: block;
     padding: 8px;
     color: rgba(108, 154, 139, 1);
   }
@@ -49,8 +52,9 @@ header {
     width: 90px;
     height: 10px;
     position: absolute;
-    right: 170px;
+    right: 190px;
     text-align: center;
+    display: block;
   }
 
   #register{
@@ -64,6 +68,7 @@ header {
     position: absolute;
     right: 60px;
     text-align: center;
+    display: block;
   }
 
  footer {
