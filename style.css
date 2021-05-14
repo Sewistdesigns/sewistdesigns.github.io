@@ -33,7 +33,7 @@ header {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    margin: 20px auto;
+    margin:  10px 20px;
     padding: 0 20px;
   }
   
@@ -54,8 +54,9 @@ header {
     background-color: rgba(232, 153, 141, 1);
     border: 2px solid rgba(232, 153, 141, 1);
     color: rgba(255, 255, 255, 1);
-    padding: 16px;
+    padding: 16px 16px 0px;
     margin-right: 20px;
+    margin-left: 0px;
     display: inline-block;
   }
 
@@ -63,8 +64,9 @@ header {
     border-radius: 10px;
     border: 2px solid rgba(232, 153, 141, 1);
     color:rgba(232, 153, 141, 1);
-    padding: 16px;
+    padding: 16px 0px 16px 16px;
     display: inline-block;
+    margin-left: 0px;
   }
 
  footer {
@@ -74,6 +76,7 @@ header {
     background-color: rgb(255, 255, 255);
     font-family: 'Montserrat';
     border-top: 1px solid #adadad;
+    overflow: hidden;
   }
 
   footer li{
@@ -81,18 +84,16 @@ header {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     text-decoration: none;
     font-size: 16px;   
     color: #000000;
-    margin: 20px auto;
+    margin: 10px 20px;
     padding: 0 20px;
   }
 
   .follow{    
     color: #000000;
     float: right;
-    clear: both;
   }
 
   .socialmedia {
