@@ -91,6 +91,7 @@ header {
   .follow{    
     color: #000000;
     float: right;
+    clear: left;
   }
 
   .socialmedia {
@@ -102,6 +103,7 @@ header {
     text-decoration: none;
     margin: 5px;
     color:rgba(108, 154, 139, 1);
+    float: right;
   }
   
   .socialmedia:hover {
