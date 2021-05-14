@@ -54,7 +54,6 @@ header {
     border: 2px solid rgba(232, 153, 141, 1);
     color:rgba(232, 153, 141, 1);
     padding: 16px;
-    margin-right: 20px;
     display: inline-block;
   }
 
@@ -64,6 +63,7 @@ header {
     border: 2px solid rgba(232, 153, 141, 1);
     color: rgba(255, 255, 255, 1);
     padding: 16px;
+    margin-right: 20px;
     display: inline-block;
   }
 
@@ -107,6 +107,7 @@ header {
     margin: 5px;
     color:rgba(108, 154, 139, 1);
     float: right;
+    margin-right: 20px;
   }
   
   .socialmedia:hover {
