@@ -6,7 +6,7 @@ resize();
 // resize canvas when window is resized
 function resize() {
   ctx.canvas.width = window.innerWidth;
-  ctx.canvas.height = 300px;
+  ctx.canvas.height = window.innerHeight;
 }
 
 // initialize position as 0,0
