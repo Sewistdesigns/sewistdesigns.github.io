@@ -19,9 +19,9 @@
 
   /* Header */
 header {
-    position: fixed;
     top: 0;
     width: 100%;
+    height: 60px;
     background-color: rgb(255, 255, 255);
     font-family: 'Montserrat';
     border-bottom: 1px solid #adadad;
@@ -33,7 +33,7 @@ header {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    margin: auto;
+    margin: 10px auto;
     padding: 0 20px;
   }
 
@@ -115,7 +115,6 @@ header {
     font-size: 27px;
     text-align: center;    
     color: #000000;
-    height: 60px;
     width: 50%;
     background-color: rgba(232, 153, 141, 1);
     box-align: center;
@@ -155,6 +154,8 @@ header {
 /* Inspiration */
   div.gallery {
     border: 1px solid #ccc;
+    margin: 10px;
+    clear: both;
   }
   
   div.gallery:hover {
