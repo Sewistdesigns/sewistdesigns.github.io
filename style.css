@@ -33,10 +33,13 @@ header {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: inline;
+    overflow: hidden;
   }
   
   header li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
     padding: 8px;
     color: rgba(108, 154, 139, 1);
   }
@@ -48,13 +51,6 @@ header {
     border-radius: 10px;
     border: 2px solid rgba(232, 153, 141, 1);
     color:rgba(232, 153, 141, 1);
-    padding: 20px; 
-    width: 90px;
-    height: 10px;
-    position: absolute;
-    right: 190px;
-    text-align: center;
-    display: block;
   }
 
   #register{
@@ -62,13 +58,6 @@ header {
     background-color: rgba(232, 153, 141, 1);
     border: 2px solid rgba(232, 153, 141, 1);
     color: rgba(255, 255, 255, 1);
-    padding: 20px; 
-    width: 90px;
-    height: 10px;
-    position: absolute;
-    right: 60px;
-    text-align: center;
-    display: block;
   }
 
  footer {
