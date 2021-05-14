@@ -126,7 +126,7 @@ header {
   h3{
     font-family: 'Montserrat';
     font-size: 16px;
-    text-align: start;    
+    text-align: center;    
     color: rgba(101, 99, 99, 1);
     display: inline-block;
   }
@@ -139,7 +139,7 @@ header {
   }
 
   .button{
-    border-radius: 15px;
+    border-radius: 10px;
     background-color: rgba(238, 210, 204, 1);
     padding: 5px; 
     text-align: center;
@@ -194,5 +194,5 @@ header {
   #share{
     display: inline-block;
     right: 40px;
-    width: 40px;
+    width: 90px;
   }
