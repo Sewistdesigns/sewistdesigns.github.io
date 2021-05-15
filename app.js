@@ -1,4 +1,4 @@
-var canvas = document.getElementById("canvas");
+var canvas = document.getElementById("draw");
 
 var ctx = canvas.getContext("2d");
 resize();
@@ -48,7 +48,7 @@ document.addEventListener("mouseenter", setPosition);
 
 //code from https://wanago.io/2019/06/24/creating-a-simple-drawing-app-using-canvas-saving-and-loading-images/
 window.onload = () => {
-    const canvas = document.getElementById('canvas');
+    const canvas = document.getElementById('draw');
     const context = canvas.getContext('2d');
    
     const saveButton = document.getElementById('save');
