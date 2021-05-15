@@ -65,3 +65,16 @@ function clearCanvas(img,ctx,img_scaled_width,img_scaled_height){
 	ctx.clearRect(0,0, img_scaled_width, img_scaled_height);
 	drawImageToScale(img, ctx);
 }
+
+document.getElementById("btnSave").onclick = function () {
+    var idt = ctx.getImageData(0, 0, width, height);
+    localStorage.setItem(savekey, JSON.stringify(idt));
+}
+
+document.getElementById("btnLoad").onclick = function () {
+    var idt = localStorage.getItem(savekey) || null;
+    if (idt !== null) {
+        var data = JSON.parse(idt);
+        ctx.putImageData(idt, 0, 0);
+    }
+}
