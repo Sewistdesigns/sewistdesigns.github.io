@@ -1,3 +1,4 @@
+//Most code from https://enlight.nyc/projects/web-paint
 var canvas = document.getElementById("draw");
 
 var ctx = canvas.getContext("2d");
