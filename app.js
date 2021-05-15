@@ -63,7 +63,7 @@ document.addEventListener("mouseenter", setPosition);
 // var imageData = myCtxt.getImageData(0,0,ctx.canvas.width,ctx.canvas.height);
 // localStorage.setItem(savekey, JSON.stringify(idt));
 window.onload = () => {
-    const canvas = document.getElementById('canvas');
+    const canvas = document.getElementById('draw');
     const context = canvas.getContext('2d');
    
     const saveButton = document.getElementById('save');
