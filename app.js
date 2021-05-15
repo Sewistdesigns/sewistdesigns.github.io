@@ -44,3 +44,14 @@ window.addEventListener("resize", resize);
 document.addEventListener("mousemove", draw);
 document.addEventListener("mousedown", setPosition);
 document.addEventListener("mouseenter", setPosition);
+
+//save
+localStorage.setItem(canvasName, canvas.toDataURL());
+
+//load
+var dataURL = localStorage.getItem(canvasName);
+var img = new Image;
+img.src = dataURL;
+img.onload = function () {
+    ctx.drawImage(img, 0, 0);
+};
