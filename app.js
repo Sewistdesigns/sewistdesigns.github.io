@@ -48,7 +48,7 @@ document.addEventListener("mouseenter", setPosition);
 
 //save
 // function save(){
-localStorage.setItem(canvasName, canvas.toDataURL());
+//localStorage.setItem(canvasName, canvas.toDataURL());
 // }
 // //load
 // function upload(){
@@ -62,4 +62,18 @@ localStorage.setItem(canvasName, canvas.toDataURL());
 
 // var imageData = myCtxt.getImageData(0,0,ctx.canvas.width,ctx.canvas.height);
 // localStorage.setItem(savekey, JSON.stringify(idt));
+window.onload = () => {
+    const canvas = document.getElementById('canvas');
+    const context = canvas.getContext('2d');
+   
+    const saveButton = document.getElementById('save');
+    saveButton.addEventListener('click', () => save(canvas));
+  };
 
+  function save(canvas) {
+    const data = canvas.toDataURL('image/png');
+    const anchor = document.createElement('a');
+    anchor.href = data;
+    anchor.download = 'image.png';
+    anchor.click();
+  }
