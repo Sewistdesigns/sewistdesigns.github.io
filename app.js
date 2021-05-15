@@ -10,7 +10,7 @@ function resize() {
 }
 
 // initialize position as 0,0
-var pos = { x: 0, y: 0 };
+var pos = { x: 0, y: -20 };
 
 // new position from mouse events
 function setPosition(e) {
