@@ -46,12 +46,15 @@ document.addEventListener("mousedown", setPosition);
 document.addEventListener("mouseenter", setPosition);
 
 //save
+function save(){
 localStorage.setItem(canvasName, canvas.toDataURL());
-
+}
 //load
+function upload(){
 var dataURL = localStorage.getItem(canvasName);
 var img = new Image;
 img.src = dataURL;
 img.onload = function () {
     ctx.drawImage(img, 0, 0);
+}
 };
