@@ -63,39 +63,39 @@ window.onload = () => {
     anchor.click();
   }
   //load
-//   window.onload = () => {
-//     const canvas = document.getElementById('canvas');
+  window.onload = () => {
+    const canvas = document.getElementById('draw');
    
-//     const loadInput = document.getElementById('load');
-//     loadInput.addEventListener('change', (event) => load(event, canvas));
-//   };
+    const loadInput = document.getElementById('load');
+    loadInput.addEventListener('change', (event) => load(event, canvas));
+  };
 
-//   function getFile(event) {
-//     return [...event.target.files].pop();
-//   }
+  function getFile(event) {
+    return [...event.target.files].pop();
+  }
 
-//   function readTheFile(file) {
-//     const reader = new FileReader();
-//     return new Promise((resolve) => {
-//       reader.onload = (event) => {
-//         resolve(event.target.result);
-//       };
-//       reader.readAsDataURL(file);
-//     })
-//   }
+  function readTheFile(file) {
+    const reader = new FileReader();
+    return new Promise((resolve) => {
+      reader.onload = (event) => {
+        resolve(event.target.result);
+      };
+      reader.readAsDataURL(file);
+    })
+  }
 
-//   function loadTheImage(image, canvas) {
-//     const img = new Image();
-//     img.onload = function () {
-//       const context = canvas.getContext('2d');
-//       context.clearRect(0, 0, canvas.width, canvas.height);
-//       context.drawImage(img, 0, 0);
-//     };
-//     img.src = image;
-//   }
+  function loadTheImage(image, canvas) {
+    const img = new Image();
+    img.onload = function () {
+      const context = canvas.getContext('2d');
+      context.clearRect(0, 0, canvas.width, canvas.height);
+      context.drawImage(img, 0, 0);
+    };
+    img.src = image;
+  }
 
-//   function load(event, canvas) {
-//     const file = getFile(event);
-//     readTheFile(file, canvas)
-//       .then((image) => loadTheImage(image, canvas))
-//   }
+  function load(event, canvas) {
+    const file = getFile(event);
+    readTheFile(file, canvas)
+      .then((image) => loadTheImage(image, canvas))
+  }
