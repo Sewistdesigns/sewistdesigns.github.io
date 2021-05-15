@@ -1,3 +1,4 @@
+// code from https://levelup.gitconnected.com/html5-canvas-drawing-application-on-github-pages-beginner-friendly-tutorial-5d50b99adb6a
 window.addEventListener("load", () => {
 	const clearButton = document.querySelector('#clear');
 	const blackButton = document.querySelector('#blackColour');
