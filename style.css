@@ -86,14 +86,13 @@ header {
 
   .follow{    
     color: #000000;
-    float: right;
   }
 
   .socialmedia {
     width: 30px;
     height: 30px;
     margin: 5px;
-    float: right;
+    display: inline-block;
     margin-right: 20px;
   }
   
