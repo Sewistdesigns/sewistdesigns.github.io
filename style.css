@@ -78,7 +78,7 @@ header {
   }
 
   footer li{
-    float: left;
+    display: inline-block;
     list-style-type: none;
     margin: 20px auto;
     padding: 0 20px;
@@ -91,13 +91,7 @@ header {
   .socialmedia {
     width: 30px;
     height: 30px;
-    margin: 5px;
     display: inline-block;
-    margin-right: 20px;
-  }
-  
-  .socialmedia:hover {
-      color: rgba(246, 190, 101, 1);
   }
 
   h2{
