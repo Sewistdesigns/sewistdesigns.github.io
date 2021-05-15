@@ -47,7 +47,7 @@ document.addEventListener("mouseenter", setPosition);
 
 //save
 // function save(){
-// localStorage.setItem(canvasName, canvas.toDataURL());
+localStorage.setItem(canvasName, canvas.toDataURL());
 // }
 // //load
 // function upload(){
@@ -59,5 +59,6 @@ document.addEventListener("mouseenter", setPosition);
 // }
 // };
 
-var imageData = myCtxt.getImageData(0,0,ctx.canvas.width,ctx.canvas.height);
-localStorage.setItem(savekey, JSON.stringify(idt));
+// var imageData = myCtxt.getImageData(0,0,ctx.canvas.width,ctx.canvas.height);
+// localStorage.setItem(savekey, JSON.stringify(idt));
+
