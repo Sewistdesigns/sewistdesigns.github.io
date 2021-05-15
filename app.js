@@ -46,22 +46,7 @@ document.addEventListener("mousemove", draw);
 document.addEventListener("mousedown", setPosition);
 document.addEventListener("mouseenter", setPosition);
 
-//save
-// function save(){
-//localStorage.setItem(canvasName, canvas.toDataURL());
-// }
-// //load
-// function upload(){
-// var dataURL = localStorage.getItem(canvasName);
-// var img = new Image;
-// img.src = dataURL;
-// img.onload = function () {
-//     ctx.drawImage(img, 0, 0);
-// }
-// };
-
-// var imageData = myCtxt.getImageData(0,0,ctx.canvas.width,ctx.canvas.height);
-// localStorage.setItem(savekey, JSON.stringify(idt));
+//code from https://wanago.io/2019/06/24/creating-a-simple-drawing-app-using-canvas-saving-and-loading-images/
 window.onload = () => {
     const canvas = document.getElementById('canvas');
     const context = canvas.getContext('2d');
@@ -76,4 +61,41 @@ window.onload = () => {
     anchor.href = data;
     anchor.download = 'image.png';
     anchor.click();
+  }
+  //load
+  window.onload = () => {
+    const canvas = document.getElementById('canvas');
+   
+    const loadInput = document.getElementById('load');
+    loadInput.addEventListener('change', (event) => load(event, canvas));
+  };
+
+  function getFile(event) {
+    return [...event.target.files].pop();
+  }
+
+  function readTheFile(file) {
+    const reader = new FileReader();
+    return new Promise((resolve) => {
+      reader.onload = (event) => {
+        resolve(event.target.result);
+      };
+      reader.readAsDataURL(file);
+    })
+  }
+
+  function loadTheImage(image, canvas) {
+    const img = new Image();
+    img.onload = function () {
+      const context = canvas.getContext('2d');
+      context.clearRect(0, 0, canvas.width, canvas.height);
+      context.drawImage(img, 0, 0);
+    };
+    img.src = image;
+  }
+
+  function load(event, canvas) {
+    const file = getFile(event);
+    readTheFile(file, canvas)
+      .then((image) => loadTheImage(image, canvas))
   }
