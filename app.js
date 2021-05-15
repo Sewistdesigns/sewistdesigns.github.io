@@ -22,12 +22,14 @@ function draw(e) {
   if (e.buttons !== 1) return; // if mouse is not clicked, do not go further
 
   var color = document.getElementById("hex").value;
+  var thickness = document.getElementById("thickness").value;
 
   ctx.beginPath(); // begin the drawing path
 
   ctx.lineWidth = 20; // width of line
   ctx.lineCap = "round"; // rounded end cap
   ctx.strokeStyle = color; // hex color of line
+  ctx.thickness = thickness;
 
   ctx.moveTo(pos.x, pos.y); // from position
   setPosition(e);
