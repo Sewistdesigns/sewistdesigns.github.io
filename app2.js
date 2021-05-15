@@ -44,6 +44,7 @@ window.addEventListener("load", () => {
 		ctx.stroke();
 		ctx.beginPath();
 		ctx.moveTo(e.clientX, e.clientY);
+        var color = document.getElementById("hex").value;
 	}
   
 	clearButton.addEventListener('click', () => clearCanvas(img, ctx, canvas.width, canvas.height));
