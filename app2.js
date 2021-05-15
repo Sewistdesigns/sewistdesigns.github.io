@@ -1,8 +1,6 @@
 // code from https://levelup.gitconnected.com/html5-canvas-drawing-application-on-github-pages-beginner-friendly-tutorial-5d50b99adb6a
 window.addEventListener("load", () => {
 	const clearButton = document.querySelector('#clear');
-	const blackButton = document.querySelector('#blackColour');
-	const whiteButton = document.querySelector('#whiteColour');
 	const canvas = document.querySelector("#canvas");
 	const ctx = canvas.getContext('2d');
 
@@ -38,18 +36,18 @@ window.addEventListener("load", () => {
 	function draw(e){
 		if (!painting)
 			return;
+        var color = document.getElementById("hex").value;
+        ctx.strokeStyle = color;
 		ctx.lineWidth = 3;
 		ctx.lineCap = 'round';
 		ctx.lineTo(e.clientX, e.clientY);
 		ctx.stroke();
 		ctx.beginPath();
 		ctx.moveTo(e.clientX, e.clientY);
-        var color = document.getElementById("hex").value;
+        
 	}
   
 	clearButton.addEventListener('click', () => clearCanvas(img, ctx, canvas.width, canvas.height));
-	blackButton.addEventListener('click', () => ctx.strokeStyle = "#000000");
-	whiteButton.addEventListener('click', () => ctx.strokeStyle = "#ffffff");
 });
 
 function drawImageToScale(img, ctx){
@@ -66,15 +64,15 @@ function clearCanvas(img,ctx,img_scaled_width,img_scaled_height){
 	drawImageToScale(img, ctx);
 }
 
-document.getElementById("btnSave").onclick = function () {
-    var idt = ctx.getImageData(0, 0, width, height);
-    localStorage.setItem(savekey, JSON.stringify(idt));
+function saveimg(){
+    localStorage.setItem(canvasName, canvas.toDataURL());
 }
 
-document.getElementById("btnLoad").onclick = function () {
-    var idt = localStorage.getItem(savekey) || null;
-    if (idt !== null) {
-        var data = JSON.parse(idt);
-        ctx.putImageData(idt, 0, 0);
-    }
+function uploadimg(){
+    var dataURL = localStorage.getItem(canvasName);
+    var img = new Image;
+    img.src = dataURL;
+    img.onload = function () {
+        ctx.drawImage(img, 0, 0);
+    };
 }
