@@ -26,10 +26,9 @@ function draw(e) {
 
   ctx.beginPath(); // begin the drawing path
 
-  ctx.lineWidth = 20; // width of line
+  ctx.lineWidth = thickness; // width of line
   ctx.lineCap = "round"; // rounded end cap
   ctx.strokeStyle = color; // hex color of line
-  ctx.thickness = thickness;
 
   ctx.moveTo(pos.x, pos.y); // from position
   setPosition(e);
