@@ -202,3 +202,9 @@ header {
   display: inline-block;
   vertical-align: middle;
 }
+
+.step{
+  text-align: left;
+  width: 33%;
+  font-size: 22px;
+}
