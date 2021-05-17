@@ -212,6 +212,7 @@ header {
 .step{
   text-align: left;
   font-size: 18px;
+  margin:30px;
 }
 
 .steptitle{
