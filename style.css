@@ -200,13 +200,14 @@ header {
   
 .progress li{
   display: inline-block;
-  vertical-align: middle;
-  text-decoration: none;
-  text-decoration: none;
+  list-style-type: none;
+  margin: 15px auto;
+  padding: 0 20px;
 }
-.progress img{
+.progressimg{
   width: 90px;
   height: 90px;
+  display: inline-block;
 }
 
 .step{
