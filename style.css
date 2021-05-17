@@ -201,11 +201,12 @@ header {
 .progress li{
   display: inline-block;
   vertical-align: middle;
+  width: 100%;
 }
 
 .progressimg{
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
 }
 
 .step{
