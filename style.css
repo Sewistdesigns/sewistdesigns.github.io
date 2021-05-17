@@ -198,7 +198,7 @@ header {
 
   /*Progress bar*/
   
-.progress{
+.progress li{
   display: inline-block;
   vertical-align: middle;
 }
