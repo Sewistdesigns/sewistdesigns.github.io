@@ -198,13 +198,15 @@ header {
 
   /*Progress bar*/
   
-.progress img{
+.progress li{
   display: inline-block;
   vertical-align: middle;
   text-decoration: none;
+  text-decoration: none;
+}
+.progress img{
   width: 90px;
   height: 90px;
-  text-decoration: none;
 }
 
 .step{
