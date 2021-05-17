@@ -202,11 +202,6 @@ header {
   display: inline-block;
   vertical-align: middle;
   text-decoration: none;
-  width: 100%;
-}
-
-.progressimg{
-  display: inline-block;
   width: 90px;
   height: 90px;
   text-decoration: none;
