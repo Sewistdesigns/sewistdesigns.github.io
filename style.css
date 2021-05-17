@@ -203,6 +203,7 @@ header {
   list-style-type: none;
   margin: 15px auto;
   padding: 0 20px;
+  vertical-align: middle;
 }
 .progressimg{
   width: 90px;
