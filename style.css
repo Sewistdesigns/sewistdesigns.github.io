@@ -205,6 +205,7 @@ header {
 }
 
 .progressimg{
+  display: inline-block;
   width: 90px;
   height: 90px;
 }
