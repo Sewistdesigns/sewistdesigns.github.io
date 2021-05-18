@@ -31,9 +31,9 @@ function draw(e) {
   ctx.lineCap = "round"; // rounded end cap
   ctx.strokeStyle = color; // hex color of line
 
-  ctx.moveTo(pos.x, pos.y-110); // from position
+  ctx.moveTo(pos.x, pos.y); // from position
   setPosition(e);
-  ctx.lineTo(pos.x, pos.y-110); // to position
+  ctx.lineTo(pos.x, pos.y); // to position
 
   ctx.stroke(); // draw it!
 }
