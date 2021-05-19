@@ -24,8 +24,8 @@
 
         <div class='progress'>
             <ul>
-                <li><img class='progressimg' src="img/garment.png"></li>
-                <li><img class='progressimg' src="img/arrowright.png"></li>
+                <li><img class='progressimg' src="img/garmentyellow.png"></li>
+                <li><img class='progressimg' src="img/arrowrightyellow.png"></li>
                 <li><img class='progressimg' src="img/pattern.png"></li>
                 <li><img class='progressimg' src="img/arrowright.png"></li>
                 <li><img class='progressimg' src="img/size.png"></li>
@@ -36,47 +36,28 @@
             </ul>
         </div>
 
-        <h2 class='steptitle'>Step 1</h2>
-        <h3 class="step">Choose the type of garment you want to make. Click through the options to specify the base shape of the look. If you can’t find what you have in mind, choose the most similar one, as you’ll be able to adjust the pattern later on. </h3> 
+        <h2 class='steptitle'>Step 2</h2>
+        <h3 class="step">Specify how you want your garment to look. Click through the options to specify the base shape of the look. If you can’t find what you have in mind, choose the most similar one, as you’ll be able to adjust the pattern. </h3> 
 
-        <div class="responsive">
-            <div class="gallery">
-              <a href="designpatternskirt.html">
-                <img src="img/skirt.png" alt="skirt" width="400" height="500">
-              </a>
-              <div class="desc">Skirt</div>
-            </div>
-          </div>
+        <form action="https://formspree.io/f/xpzkpbwl" method="POST">
+            <section class="fit">
+                <label>What general fit do you want?
+                    <input type="radio" name="fit" value="fitted">Fitted</input>
+                    <input type="radio" name="fit" value="medium">Medium</input>
+                    <input type="radio" name="fit" value="oversized">Oversized</input>
+            </label>
+            </section>
 
-          <div class="responsive">
-            <div class="gallery">
-              <a href="designpatterndress.html">
-                <img src="img/dress.png" alt="dress" width="400" height="500">
-              </a>
-              <div class="desc">Dress</div>
-            </div>
-          </div>
+            <section class="fit">
+                <label>What general fit do you want?
+                    <input type="radio" name="fit" value="fitted">Fitted</input>
+                    <input type="radio" name="fit" value="medium">Medium</input>
+                    <input type="radio" name="fit" value="oversized">Oversized</input>
+            </label>
+            </section>
 
-          <div class="responsive">
-            <div class="gallery">
-              <a href="designpatterntop.html">
-                <img src="img/top.png" alt="top" width="400" height="500">
-              </a>
-              <div class="desc">Top</div>
-            </div>
-          </div>
-
-          <div class="responsive">
-            <div class="gallery">
-              <a>
-                <img src="img/trousers.png" alt="trousers" width="400" height="500">
-              </a>
-              <div class="desc">Trousers</div>
-            </div>
-          </div>
-          <br>
-          <br>
-
+            <input type="submit" value="Submit">
+        </form>
 
         <footer>
             <ul>
