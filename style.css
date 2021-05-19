@@ -260,7 +260,7 @@ label {
   height: auto;
   }
 
-  .closure { 
+.closure { 
     position: relative;
     opacity: 100;
     width: auto;
@@ -275,4 +275,6 @@ label {
 .sizechart {
   margin: 10px;
   float: inline-end;
+  width: 400px;
+  height: 500px;
 }
