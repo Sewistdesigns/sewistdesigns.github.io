@@ -257,3 +257,10 @@ label {
   width: auto;
   height: auto;
   }
+
+  .closure { 
+    position: relative;
+    opacity: 100;
+    width: auto;
+    height: auto;
+    }
