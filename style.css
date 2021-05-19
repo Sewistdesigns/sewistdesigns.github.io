@@ -249,3 +249,7 @@ label {
   font-family: "Montserrat";
   font-size: 18px;
 }
+
+[type=radio] + .fit { 
+  position: absolute;
+  }
