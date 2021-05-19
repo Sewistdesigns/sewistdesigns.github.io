@@ -121,6 +121,12 @@ header {
     line-height: 5px;
   }
 
+  p{
+    font-family: 'Montserrat';    
+    margin: 30px;
+  }
+
+
   .share h3{
     font-family: 'Montserrat';
     font-size: 16px;
