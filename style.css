@@ -251,7 +251,7 @@ label {
   font-size: 18px;
 }
 
-[type=radio] + .fit { 
+.fit { 
   position: relative;
   opacity: 100;
   width: auto;
