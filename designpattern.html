@@ -39,14 +39,26 @@
         <h2 class='steptitle'>Step 2</h2>
         <h3 class="step">Specify how you want your garment to look. Click through the options to specify the base shape of the look. If you can’t find what you have in mind, choose the most similar one, as you’ll be able to adjust the pattern. </h3> 
 
-        <form action="dosomething.php" method="get" >
-            <select id="selectImage" class="image-picker" name='skirt'>
-            <option data-img-label="A-line" data-img-src="img/skirts/aline.png" value="1">A-line</option>
-            <option data-img-label="A-line buttons" data-img-src="img/skirts/alinebuttons.png" value="2">A-line buttons</option>
-            <option data-img-src="files/3.jpg" input type="text" name="img" value="3">3</option>
-            </select>
+        <form>
+            <section class="skirt">
+                <select id="selectImage" class="image-picker" name='skirt'>
+                    <option data-img-label="A-line" data-img-src="img/skirts/aline.png" value="1">A-line</option>
+                    <option data-img-label="A-line buttons" data-img-src="img/skirts/alinebuttons.png" value="2">A-line buttons</option>
+                </select>
+            </section>
             <input type="submit" value="Submit">
-            </form>
+        </form>
+
+            <section class="cheesy">
+                <span>Would you like to add cheese?</span>
+                <br>
+                  <!--Add your first radio button below-->
+                <input id="yes" type="radio" name="cheese"  value="yes">
+                <label for="yes">Yes</label>
+                  <!--Add your second radio button below-->
+                <input id="no" type="radio" name="cheese" value="no">
+      
+                <label for="no">No</label>
 
           <div class="responsive">
             <div class="gallery">
