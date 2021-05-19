@@ -231,12 +231,13 @@ position: absolute;
 opacity: 0;
 width: 0;
 height: 0;
-visibility: hidden;
 }
 
 /* IMAGE STYLES */
 [type=radio] + img {
 cursor: pointer;
+width: 300px;
+height: 375px;
 }
 
 /* CHECKED STYLES */
