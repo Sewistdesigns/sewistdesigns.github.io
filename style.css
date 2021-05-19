@@ -135,6 +135,8 @@ header {
     background-color: rgba(238, 210, 204, 1); 
     text-align: center;
     border: none;
+    padding: 5px;
+    font-size: 16px;
   }
 
   body {
