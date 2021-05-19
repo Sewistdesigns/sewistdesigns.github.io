@@ -251,5 +251,4 @@ label {
 }
 
 [type=radio] + .fit { 
-  position: absolute;
   }
