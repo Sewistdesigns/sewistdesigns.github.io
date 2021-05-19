@@ -42,23 +42,20 @@
         <form>
             <section class="skirt">
                 <select id="selectImage" class="image-picker" name='skirt'>
-                    <option data-img-label="A-line" data-img-src="img/skirts/aline.png" value="1">A-line</option>
-                    <option data-img-label="A-line buttons" data-img-src="img/skirts/alinebuttons.png" value="2">A-line buttons</option>
+                    <label>
+                        <input type="radio" name="test" value="small" checked>
+                        <img src="http://placehold.it/40x60/0bf/fff&text=A">
+                      </label>
+                      
+                      <label>
+                        <input type="radio" name="test" value="big">
+                        <img src="http://placehold.it/40x60/b0f/fff&text=B">
+                      </label>
                 </select>
             </section>
             <input type="submit" value="Submit">
         </form>
 
-            <section class="cheesy">
-                <span>Would you like to add cheese?</span>
-                <br>
-                  <!--Add your first radio button below-->
-                <input id="yes" type="radio" name="cheese"  value="yes">
-                <label for="yes">Yes</label>
-                  <!--Add your second radio button below-->
-                <input id="no" type="radio" name="cheese" value="no">
-      
-                <label for="no">No</label>
 
           <div class="responsive">
             <div class="gallery">
