@@ -275,12 +275,12 @@ label {
 
 .size {
   margin: 30px 5px 30px 30px;
-  float: inline-start;
+  float: left;
 }
 
 .sizechart {
   margin: 10px 10px 10px 5px;
-  float: inline-end;
+  float: right;
   width: 400px;
   height: 500px;
 }
