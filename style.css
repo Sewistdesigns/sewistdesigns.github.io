@@ -226,7 +226,7 @@ header {
   vertical-align: left;
 }
 
-/*form*/
+/*form part code from: https://stackoverflow.com/questions/17541614/use-images-instead-of-radio-buttons/17541916*/
 
 /* HIDE RADIO */
 [type=radio] { 
@@ -277,4 +277,8 @@ label {
   float: inline-end;
   width: 400px;
   height: 500px;
+}
+
+.sizedescription {
+  clear: both;
 }
