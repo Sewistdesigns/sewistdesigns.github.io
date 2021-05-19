@@ -111,6 +111,7 @@ header {
     font-size: 16px;
     text-align: center;    
     color: rgba(101, 99, 99, 1);
+    font-weight: normal;
   }
 
   h4{
@@ -251,4 +252,8 @@ label {
 }
 
 [type=radio] + .fit { 
+  position: relative;
+  opacity: 100;
+  width: auto;
+  height: auto;
   }
