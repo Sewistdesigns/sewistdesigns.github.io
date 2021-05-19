@@ -37,7 +37,25 @@
         </div>
 
         <h2 class='steptitle'>Step 2</h2>
-        <h3 class="step">Specify how you want your garment to look. Click through the options to specify the base shape of the look. If you can’t find what you have in mind, choose the most similar one, as you’ll be able to adjust the pattern later on. </h3> 
+        <h3 class="step">Specify how you want your garment to look. Click through the options to specify the base shape of the look. If you can’t find what you have in mind, choose the most similar one, as you’ll be able to adjust the pattern. </h3> 
+
+        <form action="dosomething.php" method="get" >
+            <select id="selectImage" class="image-picker" name='skirt'>
+            <option data-img-src="img/skirts/aline.png" input type="text" name="img" value="1">1</option>
+            <option data-img-src="files/2.jpg" input type="text" name="img" value="2">2</option>
+            <option data-img-src="files/3.jpg" input type="text" name="img" value="3">3</option>
+            </select>
+            <input type="submit" value="Submit">
+            </form>
+
+          <div class="responsive">
+            <div class="gallery">
+                <input type="radio" name="skirt" value="2"><a href="designpattern.html">
+                <img src="img/skirt.png" alt="skirt" width="400" height="500">
+              </a>
+              <div class="desc">Skirt</div>
+            </div>
+          </div>
 
         <footer>
             <ul>
