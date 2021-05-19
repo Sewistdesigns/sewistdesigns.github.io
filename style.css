@@ -268,9 +268,10 @@ label {
 
 .size {
   margin: 20px;
+  float: inline-start;
 }
 
 .sizechart {
   margin: 10px;
-  float: right;
+  float: inline-end;
 }
