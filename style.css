@@ -237,9 +237,6 @@ visibility: hidden;
 /* IMAGE STYLES */
 [type=radio] + img {
 cursor: pointer;
-width: 300px;
-height: 400px;
-outline: 1px solid #adadad;
 }
 
 /* CHECKED STYLES */
