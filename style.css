@@ -137,6 +137,7 @@ header {
     border: none;
     padding: 5px 15px;
     font-size: 16px;
+    margin: 30px;
   }
 
   body {
@@ -267,7 +268,7 @@ label {
     }
 
 .size {
-  margin: 20px;
+  margin: 30px;
   float: inline-start;
 }
 
