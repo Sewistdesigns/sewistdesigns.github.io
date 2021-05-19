@@ -286,5 +286,5 @@ label {
 }
 
 .sizedescription {
-  clear: both;
+  float: left;
 }
