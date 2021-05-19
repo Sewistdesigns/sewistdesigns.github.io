@@ -280,7 +280,7 @@ label {
 
 .sizechart {
   margin: 10px 10px 10px 5px;
-  display: inline-block;
+  float: right;
   width: 400px;
   height: 500px;
 }
