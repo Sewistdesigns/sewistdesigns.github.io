@@ -135,7 +135,7 @@ header {
     background-color: rgba(238, 210, 204, 1); 
     text-align: center;
     border: none;
-    padding: 5px;
+    padding: 5px 15px;
     font-size: 16px;
   }
 
@@ -265,3 +265,12 @@ label {
     width: auto;
     height: auto;
     }
+
+.size {
+  margin: 20px;
+}
+
+.sizechart {
+  margin: 10px;
+  float: right;
+}
