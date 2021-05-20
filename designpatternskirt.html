@@ -40,19 +40,10 @@
         <h3 class="step">Specify how you want your garment to look. Click through the options to specify the base shape of the look. If you can’t find what you have in mind, choose the most similar one, as you’ll be able to adjust the pattern. </h3> 
 
         <form action="https://formspree.io/f/xpzkpbwl" method="POST">
-            <section>
-                <select class="responsive" id="selectImage" class="image-picker" name='skirt' hidden >
-                    <br>
-                    <label></label>
-
-                    <label>
+            <section class="skirt">
+                    <label>What type of skirt do you want?<br>
                         <input type="radio" name="skirt" value="aline" checked>
                         <img src="img/skirts/aline.png">
-                    </label>
-                      
-                    <label>
-                        <input type="radio" name="skirt" value="alinebuttons" checked>
-                        <img src="img/skirts/alinebuttons.png">
                     </label>
 
                     <label>
@@ -111,24 +102,79 @@
                     </label>
 
                     <label>
-                        <input type="radio" name="skirt" value="straightbutton" checked>
-                        <img src="img/skirts/straightbutton.png">
-                    </label>
-
-                    <label>
-                        <input type="radio" name="skirt" value="straightbuttons" checked>
-                        <img src="img/skirts/straightbuttons.png">
-                    </label>
-
-                    <label>
                         <input type="radio" name="skirt" value="trumpet" checked>
                         <img src="img/skirts/trumpet.png">
                     </label>
+            </section><br><br>
 
-                </select>
+            <section class="closureskirt">
+                <label>What type of closure do you want?</label><br>
+                <label>Button piping
+                    <input type="radio" name="closureskirt" value="buttonpiping" checked>
+                    <img src="img/skirts/alinebuttons.png">
+                </label>
+
+                <label> Front zipper
+                    <input type="radio" name="closureskirt" value="frontzipper" checked>
+                    <img src="img/skirts/straightzipper.png">
+                </label>
+
+                <label> Side zipper
+                    <input type="radio" name="closureskirt" value="sidezipper" checked>
+                    <img src="img/skirts/halfcircle.png">
+                </label>
+
+                <label> Back zipper
+                    <input type="radio" name="closureskirt" value="backzipper" checked>
+                    <img src="img/skirts/invertedboxpleat.png">
+                </label>
+
+                <label> Button wrap
+                    <input type="radio" name="closureskirt" value="buttonwrap" checked>
+                    <img src="img/skirts/straightbuttons.png">
+                </label>
+            </section><br><br>
+
+            <section class="pockets">
+                <label>What type of closure do you want?<br>
+                    <input type="radio" name="pockets" value="seampocket" checked>
+                    <img src="img/skirts/seam.png">
+                </label>
+
+                <label>
+                    <input type="radio" name="pockets" value="patchsquare" checked>
+                    <img src="img/skirts/patchsquare.png">
+                </label>
+
+                <label>
+                    <input type="radio" name="pockets" value="patchround" checked>
+                    <img src="img/skirts/patchround.png">
+                </label>
+
+                <label>
+                    <input type="radio" name="pockets" value="boxpleat" checked>
+                    <img src="img/skirts/boxpleat.png">
+                </label>
+
+                <label>
+                    <input type="radio" name="pockets" value="gusset" checked>
+                    <img src="img/skirts/gusset.png">
+                </label>
+            </section><br><br>
+
+                <label> Lenght skirt:
+                    <input type="number,." name="lenght">
+                </label><br>
+
+                <label> bottom width skirt:
+                    <input type="number,." name="bottomwidth">
+                </label><br>
             </section>
-            <input type="submit" value="Submit">
+
+            <button type="submit">Send</button>
         </form>
+
+        <button><a href="designsizeskirt.html">Next</a></button>
 
         <footer>
             <ul>
