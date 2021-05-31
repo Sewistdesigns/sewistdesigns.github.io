@@ -68,6 +68,11 @@ header {
     margin-right: 0px;
   }
 
+  .logo {
+    width: 100px;
+    height: auto;
+  }
+
  footer {
     bottom: 0;
     width: 100%;
